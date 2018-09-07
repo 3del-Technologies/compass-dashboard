@@ -8,7 +8,7 @@ import jsontable from '../../directory.json'
 export default {
   data () {
     return {
-      data: jasontable
+      data: jsontable
     }
   }
 }
