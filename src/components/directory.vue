@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import jsontable from './directory.json'
+import jsontable from '../../directory.json'
 
 export default {
   data () {
