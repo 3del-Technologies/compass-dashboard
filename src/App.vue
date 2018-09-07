@@ -59,7 +59,8 @@
           { title: 'Profile', path: '/profile', icon: 'account_circle' },
           { title: 'Organizations', path: '/directory', icon: 'business' },
           { title: 'Your Guide', path: '/guide', icon: 'location_on' },
-          { title: 'Sign Up', path: '/signup', icon: 'face' },
+          { title: 'FAQ', path: '/faq', icon: 'live_help' },
+          { title: 'Sign Up', path: '/signup', icon: 'supervisor_account' },
           { title: 'Sign In', path: '/signin', icon: 'lock_open' }
         ]
       }

@@ -5,8 +5,19 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import { store } from './store'
 import firebase from 'firebase'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import jQuery from 'jquery'
+global.jQuery = jQuery
+global.$ = jQuery
+let Bootstrap = require('bootstrap')
 
 Vue.use(Vuetify)
+Vue.use(BootstrapVue)
+Vue.use(Bootstrap)
+
 firebase.initializeApp({
   apiKey: 'AIzaSyDSd-fyyEgsSFu1Qs4Lxk8m3a5G9tR8aWc',
   authDomain: 'compass-dashboard.firebaseapp.com',

@@ -8,7 +8,8 @@ const routerOptions = [
   { path: '/home', component: 'Home' },
   { path: '/directory', component: 'directory' },
   { path: '/profile', component: 'profile' },
-  { path: '/guide', component: 'guide' }
+  { path: '/guide', component: 'guide' },
+  { path: '/faq', component: 'faq' }
 ]
 
 const routes = routerOptions.map(route => {
