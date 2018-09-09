@@ -6,7 +6,7 @@
           <v-card-text>
             <v-container>
               <form>
-                <v-layout column>
+                <v-layout row>
                   <v-flex xs12>
                     <v-text-field
                       name="email"
